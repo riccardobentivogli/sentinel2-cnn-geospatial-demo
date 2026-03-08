@@ -1,0 +1,20 @@
+name: s2_patch_cnn
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - geopandas
+  - rasterio
+  - rioxarray
+  - xarray
+  - shapely
+  - scikit-learn
+  - matplotlib
+  - jupyter
+  - pip
+  - pip:
+      - tensorflow
+      - pyyaml
+      - tqdm
