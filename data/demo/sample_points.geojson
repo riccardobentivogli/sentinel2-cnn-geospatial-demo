@@ -1,0 +1,20 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"point_id": "P01"},
+      "geometry": {"type": "Point", "coordinates": [12.28, 44.68]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"point_id": "P02"},
+      "geometry": {"type": "Point", "coordinates": [12.69, 44.49]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"point_id": "P03"},
+      "geometry": {"type": "Point", "coordinates": [12.47, 44.28]}
+    }
+  ]
+}
