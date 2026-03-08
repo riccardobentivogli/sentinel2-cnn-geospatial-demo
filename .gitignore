@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data
+data/raw/
+data/interim/
+data/processed/
+
+# Satellite files
+*.SAFE
+*.zip
+*.tif
+*.tiff
+
+# Model outputs
+outputs/models/
+outputs/logs/
+
+# Large arrays
+*.npy
+*.npz
+
+# Secrets
+.env
+credentials.json
