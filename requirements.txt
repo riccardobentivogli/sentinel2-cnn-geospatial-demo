@@ -1,0 +1,13 @@
+numpy
+pandas
+geopandas
+rasterio
+rioxarray
+xarray
+shapely
+scikit-learn
+matplotlib
+tensorflow
+jupyter
+pyyaml
+tqdm
