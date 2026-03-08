@@ -12,3 +12,48 @@ The project showcases how multispectral satellite data can be processed and used
 4. Train a CNN using spectral reflectance patches
 
 ## Repository structure
+sentinel2-patch-cnn-demo
+│
+├── configs/ # configuration files
+├── data/ # demo and placeholder datasets
+├── notebooks/ # interactive notebooks for workflow demonstration
+├── src/ # main python scripts
+├── outputs/ # generated figures and trained models
+├── docs/ # documentation
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+
+
+
+## Data
+
+This repository includes only synthetic or demonstration datasets to illustrate the workflow.
+
+Original in situ chlorophyll-a measurements and exact sampling coordinates used in research applications are not distributed due to data-sharing constraints.
+
+## Installation
+
+git clone https://github.com/YOURUSERNAME/sentinel2-patch-cnn-demo.git
+
+pip install -r requirements.txt
+
+## Example workflow
+
+python src/download_s2.py  
+python src/preprocess_s2.py  
+python src/extract_patches.py  
+python src/train.py  
+
+## Tech stack
+
+Python  
+GeoPandas  
+Rasterio  
+TensorFlow  
+Scikit-learn  
+
+## Author
+
+Riccardo Bentivogli
